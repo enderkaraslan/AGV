@@ -1,0 +1,9 @@
+/home/ender/Desktop/dev_ws/build/my_bot/CMakeFiles/uninstall.dir
+/home/ender/Desktop/dev_ws/build/my_bot/CMakeFiles/my_bot_uninstall.dir
+/home/ender/Desktop/dev_ws/build/my_bot/CMakeFiles/test.dir
+/home/ender/Desktop/dev_ws/build/my_bot/CMakeFiles/edit_cache.dir
+/home/ender/Desktop/dev_ws/build/my_bot/CMakeFiles/rebuild_cache.dir
+/home/ender/Desktop/dev_ws/build/my_bot/CMakeFiles/list_install_components.dir
+/home/ender/Desktop/dev_ws/build/my_bot/CMakeFiles/install.dir
+/home/ender/Desktop/dev_ws/build/my_bot/CMakeFiles/install/local.dir
+/home/ender/Desktop/dev_ws/build/my_bot/CMakeFiles/install/strip.dir

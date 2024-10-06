@@ -1,0 +1,4 @@
+[console_scripts]
+control = nav_controller.control:main
+display_map = nav_controller.display_map:main
+
