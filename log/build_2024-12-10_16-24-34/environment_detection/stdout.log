@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target environment_detection_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/environment_detection_node.dir/core/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable environment_detection_node[0m

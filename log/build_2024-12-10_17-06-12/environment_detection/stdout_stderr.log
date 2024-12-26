@@ -1,0 +1,64 @@
+[35m[1mConsolidate compiler generated dependencies of target environment_detection_node[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/environment_detection_node.dir/src/camera_node.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/environment_detection_node.dir/src/main.cpp.o[0m
+In file included from [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/camera_node.cpp:1[m[K:
+[01m[K/home/ender/Desktop/dev_ws/src/environment_detection/include/camera_node.hpp:16:79:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ static data member ‘[01m[Ksubscription_[m[K’ must have an initializer
+   16 |     static constexpr rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr [01;31m[Ksubscription_[m[K;
+      |                                                                               [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/camera_node.cpp:[m[K In constructor ‘[01m[KCameraNode::CameraNode()[m[K’:
+[01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/camera_node.cpp:9:96:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > > >[m[K’} and ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > > >[m[K’)
+    9 |         "camera/image", 10, std::bind(&CameraNode::image_callback, this, std::placeholders::_1)[01;31m[K)[m[K;
+      |                                                                                                [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/include/camera_node.hpp:3[m[K,
+                 from [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/camera_node.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:363:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > >; _Tp = rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > >; std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> = std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > > >&][m[K’ (near match)
+  363 |         [01;36m[Koperator[m[K=(const shared_ptr<_Yp>& __r) noexcept
+      |         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:363:9:[m[K [01;36m[Knote: [m[K  passing ‘[01m[Kconst SharedPtr*[m[K’ {aka ‘[01m[Kconst std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > > >*[m[K’} as ‘[01m[Kthis[m[K’ argument discards qualifiers
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:374:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > >][m[K’
+  374 |         [01;36m[Koperator[m[K=(auto_ptr<_Yp>&& __r)
+      |         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:374:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/camera_node.cpp:9:96:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > > >[m[K’ is not derived from ‘[01m[Kstd::auto_ptr<_Up>[m[K’
+    9 |         "camera/image", 10, std::bind(&CameraNode::image_callback, this, std::placeholders::_1)[01;36m[K)[m[K;
+      |                                                                                                [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/include/camera_node.hpp:3[m[K,
+                 from [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/camera_node.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:391:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > >; _Tp = rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > >; std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > = std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > > >&][m[K’ (near match)
+  391 |         [01;36m[Koperator[m[K=(shared_ptr<_Yp>&& __r) noexcept
+      |         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:391:9:[m[K [01;36m[Knote: [m[K  passing ‘[01m[Kconst SharedPtr*[m[K’ {aka ‘[01m[Kconst std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > > >*[m[K’} as ‘[01m[Kthis[m[K’ argument discards qualifiers
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:399:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > >][m[K’
+  399 |         [01;36m[Koperator[m[K=(unique_ptr<_Yp, _Del>&& __r)
+      |         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:399:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/camera_node.cpp:9:96:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > > >[m[K’ is not derived from ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’
+    9 |         "camera/image", 10, std::bind(&CameraNode::image_callback, this, std::placeholders::_1)[01;36m[K)[m[K;
+      |                                                                                                [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/include/camera_node.hpp:3[m[K,
+                 from [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/camera_node.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:359:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > >][m[K’ (near match)
+  359 |       shared_ptr& [01;36m[Koperator[m[K=(const shared_ptr&) noexcept = default;
+      |                   [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:359:19:[m[K [01;36m[Knote: [m[K  passing ‘[01m[Kconst SharedPtr*[m[K’ {aka ‘[01m[Kconst std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > > >*[m[K’} as ‘[01m[Kthis[m[K’ argument discards qualifiers
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:383:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > >][m[K’ (near match)
+  383 |       [01;36m[Koperator[m[K=(shared_ptr&& __r) noexcept
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:383:7:[m[K [01;36m[Knote: [m[K  passing ‘[01m[Kconst SharedPtr*[m[K’ {aka ‘[01m[Kconst std::shared_ptr<rclcpp::Subscription<sensor_msgs::msg::Image_<std::allocator<void> > > >*[m[K’} as ‘[01m[Kthis[m[K’ argument discards qualifiers
+In file included from [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/include/main.hpp:3[m[K,
+                 from [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:1[m[K:
+[01m[K/home/ender/Desktop/dev_ws/src/environment_detection/include/camera_node.hpp:16:79:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ static data member ‘[01m[Ksubscription_[m[K’ must have an initializer
+   16 | rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr [01;31m[Ksubscription_[m[K;
+      |                                                          [01;31m[K^~~~~~~~~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/environment_detection_node.dir/build.make:76: CMakeFiles/environment_detection_node.dir/src/main.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/environment_detection_node.dir/build.make:90: CMakeFiles/environment_detection_node.dir/src/camera_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/environment_detection_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

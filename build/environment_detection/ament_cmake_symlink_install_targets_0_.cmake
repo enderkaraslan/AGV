@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ender/Desktop/dev_ws/build/environment_detection/environment_detection_node" "TARGETS" "environment_detection_node" "DESTINATION" "lib/environment_detection")

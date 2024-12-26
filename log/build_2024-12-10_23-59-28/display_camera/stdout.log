@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target display_camera_node[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/display_camera_node.dir/src/display_cam.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable display_camera_node[0m
+[100%] Built target display_camera_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ender/Desktop/dev_ws/install/display_camera/lib/display_camera/display_camera_node
+-- Symlinking: /home/ender/Desktop/dev_ws/install/display_camera/share/ament_index/resource_index/package_run_dependencies/display_camera
+-- Symlinking: /home/ender/Desktop/dev_ws/install/display_camera/share/ament_index/resource_index/parent_prefix_path/display_camera
+-- Symlinking: /home/ender/Desktop/dev_ws/install/display_camera/share/display_camera/environment/ament_prefix_path.sh
+-- Symlinking: /home/ender/Desktop/dev_ws/install/display_camera/share/display_camera/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ender/Desktop/dev_ws/install/display_camera/share/display_camera/environment/path.sh
+-- Symlinking: /home/ender/Desktop/dev_ws/install/display_camera/share/display_camera/environment/path.dsv
+-- Symlinking: /home/ender/Desktop/dev_ws/install/display_camera/share/display_camera/local_setup.bash
+-- Symlinking: /home/ender/Desktop/dev_ws/install/display_camera/share/display_camera/local_setup.sh
+-- Symlinking: /home/ender/Desktop/dev_ws/install/display_camera/share/display_camera/local_setup.zsh
+-- Symlinking: /home/ender/Desktop/dev_ws/install/display_camera/share/display_camera/local_setup.dsv
+-- Symlinking: /home/ender/Desktop/dev_ws/install/display_camera/share/display_camera/package.dsv
+-- Symlinking: /home/ender/Desktop/dev_ws/install/display_camera/share/ament_index/resource_index/packages/display_camera
+-- Symlinking: /home/ender/Desktop/dev_ws/install/display_camera/share/display_camera/cmake/display_cameraConfig.cmake
+-- Symlinking: /home/ender/Desktop/dev_ws/install/display_camera/share/display_camera/cmake/display_cameraConfig-version.cmake
+-- Symlinking: /home/ender/Desktop/dev_ws/install/display_camera/share/display_camera/package.xml

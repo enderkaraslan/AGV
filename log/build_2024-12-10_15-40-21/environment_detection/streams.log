@@ -1,0 +1,47 @@
+[0.007s] Invoking command in '/home/ender/Desktop/dev_ws/build/environment_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ender/Desktop/dev_ws/install/nav_controller:/opt/ros/humble /usr/bin/cmake --build /home/ender/Desktop/dev_ws/build/environment_detection -- -j16 -l16
+[0.026s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.097s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.101s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.117s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.118s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.121s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.126s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.133s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.150s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.150s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.209s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.235s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.252s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.264s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.302s] -- Configuring done
+[0.310s] -- Generating done
+[0.311s] -- Build files have been written to: /home/ender/Desktop/dev_ws/build/environment_detection
+[0.334s] [ 25%] [32mBuilding CXX object CMakeFiles/camera_library.dir/application/camera/src/component.cpp.o[0m
+[0.349s] [ 50%] [32m[1mLinking CXX static library libcamera_library.a[0m
+[0.388s] [ 50%] Built target camera_library
+[0.396s] [35m[1mConsolidate compiler generated dependencies of target environment_detection_node[0m
+[0.406s] [ 75%] [32mBuilding CXX object CMakeFiles/environment_detection_node.dir/core/src/main.cpp.o[0m
+[5.159s] [100%] [32m[1mLinking CXX executable environment_detection_node[0m
+[5.571s] [100%] Built target environment_detection_node
+[5.580s] Invoked command in '/home/ender/Desktop/dev_ws/build/environment_detection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ender/Desktop/dev_ws/install/nav_controller:/opt/ros/humble /usr/bin/cmake --build /home/ender/Desktop/dev_ws/build/environment_detection -- -j16 -l16
+[5.600s] Invoking command in '/home/ender/Desktop/dev_ws/build/environment_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ender/Desktop/dev_ws/install/nav_controller:/opt/ros/humble /usr/bin/cmake --install /home/ender/Desktop/dev_ws/build/environment_detection
+[5.604s] -- Install configuration: ""
+[5.604s] -- Execute custom install script
+[5.604s] -- Symlinking: /home/ender/Desktop/dev_ws/install/environment_detection/lib/environment_detection/libcamera_library.a
+[5.609s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/environment_detection/lib/environment_detection/environment_detection_node
+[5.609s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/environment_detection/share/ament_index/resource_index/package_run_dependencies/environment_detection
+[5.609s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/environment_detection/share/ament_index/resource_index/parent_prefix_path/environment_detection
+[5.609s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/environment/ament_prefix_path.sh
+[5.609s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/environment/ament_prefix_path.dsv
+[5.609s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/environment/path.sh
+[5.609s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/environment/path.dsv
+[5.610s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/local_setup.bash
+[5.610s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/local_setup.sh
+[5.610s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/local_setup.zsh
+[5.610s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/local_setup.dsv
+[5.610s] -- Symlinking: /home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/package.dsv
+[5.615s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/environment_detection/share/ament_index/resource_index/packages/environment_detection
+[5.616s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/cmake/environment_detectionConfig.cmake
+[5.616s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/cmake/environment_detectionConfig-version.cmake
+[5.616s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/package.xml
+[5.617s] Invoked command in '/home/ender/Desktop/dev_ws/build/environment_detection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ender/Desktop/dev_ws/install/nav_controller:/opt/ros/humble /usr/bin/cmake --install /home/ender/Desktop/dev_ws/build/environment_detection

@@ -1,0 +1,156 @@
+[0.000000] (-) TimerEvent: {}
+[0.000441] (environment_detection) JobQueued: {'identifier': 'environment_detection', 'dependencies': OrderedDict()}
+[0.000526] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict()}
+[0.000553] (environment_detection) JobStarted: {'identifier': 'environment_detection'}
+[0.003707] (my_bot) JobStarted: {'identifier': 'my_bot'}
+[0.007546] (environment_detection) JobProgress: {'identifier': 'environment_detection', 'progress': 'cmake'}
+[0.007908] (environment_detection) JobProgress: {'identifier': 'environment_detection', 'progress': 'build'}
+[0.008249] (environment_detection) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ender/Desktop/dev_ws/build/environment_detection', '--', '-j16', '-l16'], 'cwd': '/home/ender/Desktop/dev_ws/build/environment_detection', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ender'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ender'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1106'), ('SYSTEMD_EXEC_PID', '1431'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '13104'), ('COLCON_PREFIX_PATH', '/home/ender/Desktop/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ender'), ('JOURNAL_STREAM', '8:18982'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ender'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/ender/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ender:@/tmp/.ICE-unix/1403,unix/ender:/tmp/.ICE-unix/1403'), ('INVOCATION_ID', 'ab7dcbd0cacb46568bc91f30ca19ea50'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ender/Desktop/dev_ws/install/nav_controller:/home/ender/Desktop/dev_ws/install/my_bot:/home/ender/Desktop/dev_ws/install/environment_detection:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:7ad4d55c-752a-42d9-b116-0180791d6c06'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ender/Desktop/dev_ws/build/environment_detection'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ender/Desktop/dev_ws/build/nav_controller:/home/ender/Desktop/dev_ws/install/nav_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ender/Desktop/dev_ws/install/my_bot:/home/ender/Desktop/dev_ws/install/environment_detection:/home/ender/Desktop/dev_ws/install/nav_controller:/opt/ros/humble')]), 'shell': False}
+[0.010438] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'cmake'}
+[0.010851] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'build'}
+[0.011103] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ender/Desktop/dev_ws/build/my_bot', '--', '-j16', '-l16'], 'cwd': '/home/ender/Desktop/dev_ws/build/my_bot', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ender'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ender'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1106'), ('SYSTEMD_EXEC_PID', '1431'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '13104'), ('COLCON_PREFIX_PATH', '/home/ender/Desktop/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ender'), ('JOURNAL_STREAM', '8:18982'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ender'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/ender/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ender:@/tmp/.ICE-unix/1403,unix/ender:/tmp/.ICE-unix/1403'), ('INVOCATION_ID', 'ab7dcbd0cacb46568bc91f30ca19ea50'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ender/Desktop/dev_ws/install/nav_controller:/home/ender/Desktop/dev_ws/install/my_bot:/home/ender/Desktop/dev_ws/install/environment_detection:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:7ad4d55c-752a-42d9-b116-0180791d6c06'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ender/Desktop/dev_ws/build/my_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ender/Desktop/dev_ws/build/nav_controller:/home/ender/Desktop/dev_ws/install/nav_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ender/Desktop/dev_ws/install/my_bot:/home/ender/Desktop/dev_ws/install/environment_detection:/home/ender/Desktop/dev_ws/install/nav_controller:/opt/ros/humble')]), 'shell': False}
+[0.037839] (my_bot) CommandEnded: {'returncode': 0}
+[0.040394] (environment_detection) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target environment_detection_node\x1b[0m\n'}
+[0.053073] (my_bot) JobProgress: {'identifier': 'my_bot', 'progress': 'install'}
+[0.055538] (environment_detection) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/environment_detection_node.dir/src/agv_node.cpp.o\x1b[0m\n'}
+[0.055659] (environment_detection) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/environment_detection_node.dir/src/main.cpp.o\x1b[0m\n'}
+[0.060368] (my_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ender/Desktop/dev_ws/build/my_bot'], 'cwd': '/home/ender/Desktop/dev_ws/build/my_bot', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ender'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ender'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1106'), ('SYSTEMD_EXEC_PID', '1431'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '13104'), ('COLCON_PREFIX_PATH', '/home/ender/Desktop/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ender'), ('JOURNAL_STREAM', '8:18982'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ender'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/ender/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ender:@/tmp/.ICE-unix/1403,unix/ender:/tmp/.ICE-unix/1403'), ('INVOCATION_ID', 'ab7dcbd0cacb46568bc91f30ca19ea50'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ender/Desktop/dev_ws/install/nav_controller:/home/ender/Desktop/dev_ws/install/my_bot:/home/ender/Desktop/dev_ws/install/environment_detection:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:7ad4d55c-752a-42d9-b116-0180791d6c06'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ender/Desktop/dev_ws/build/my_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ender/Desktop/dev_ws/build/nav_controller:/home/ender/Desktop/dev_ws/install/nav_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ender/Desktop/dev_ws/install/my_bot:/home/ender/Desktop/dev_ws/install/environment_detection:/home/ender/Desktop/dev_ws/install/nav_controller:/opt/ros/humble')]), 'shell': False}
+[0.066081] (my_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.066338] (my_bot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.066595] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/my_bot/share/my_bot/meshes/base_link.STL\n'}
+[0.066765] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/my_bot/share/my_bot/meshes/left_wheel.STL\n'}
+[0.066849] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/my_bot/share/my_bot/meshes/lidar_link.STL\n'}
+[0.066927] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/my_bot/share/my_bot/meshes/right_wheel.STL\n'}
+[0.067031] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/my_bot/share/my_bot/config/empty.yaml\n'}
+[0.067124] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/my_bot/share/my_bot/config/gazebo_params.yaml\n'}
+[0.067208] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/my_bot/share/my_bot/config/joystick.yaml\n'}
+[0.067295] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/my_bot/share/my_bot/config/mapper_params_online_async.yaml\n'}
+[0.067394] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/my_bot/share/my_bot/config/nav2_params.yaml\n'}
+[0.067470] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/my_bot/share/my_bot/config/twist_mux.yaml\n'}
+[0.067533] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/my_bot/share/my_bot/config/view_bot.rviz\n'}
+[0.067618] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/my_bot/share/my_bot/description/agv.urdf.xacro\n'}
+[0.067703] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro\n'}
+[0.067779] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro\n'}
+[0.067855] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/my_bot/share/my_bot/launch/joystick.launch.py\n'}
+[0.067928] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py\n'}
+[0.068003] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/my_bot/share/my_bot/launch/localization_launch.py\n'}
+[0.068067] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/my_bot/share/my_bot/launch/navigation_launch.py\n'}
+[0.068151] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/my_bot/share/my_bot/launch/online_async_launch.py\n'}
+[0.068217] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/my_bot/share/my_bot/launch/rsp.launch.py\n'}
+[0.068339] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/my_bot/share/my_bot/worlds/empty.world\n'}
+[0.068428] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/my_bot/share/my_bot/worlds/obstacles.world\n'}
+[0.068463] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot\n'}
+[0.068494] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot\n'}
+[0.068521] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh\n'}
+[0.068546] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv\n'}
+[0.068583] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/my_bot/share/my_bot/environment/path.sh\n'}
+[0.068608] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/my_bot/share/my_bot/environment/path.dsv\n'}
+[0.068725] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/my_bot/share/my_bot/local_setup.bash\n'}
+[0.068884] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/my_bot/share/my_bot/local_setup.sh\n'}
+[0.069028] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/my_bot/share/my_bot/local_setup.zsh\n'}
+[0.069169] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/my_bot/share/my_bot/local_setup.dsv\n'}
+[0.069273] (my_bot) StdoutLine: {'line': b'-- Symlinking: /home/ender/Desktop/dev_ws/install/my_bot/share/my_bot/package.dsv\n'}
+[0.074864] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot\n'}
+[0.075034] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake\n'}
+[0.075125] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake\n'}
+[0.075214] (my_bot) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/my_bot/share/my_bot/package.xml\n'}
+[0.076770] (my_bot) CommandEnded: {'returncode': 0}
+[0.099836] (-) TimerEvent: {}
+[0.105267] (my_bot) JobEnded: {'identifier': 'my_bot', 'rc': 0}
+[0.199994] (-) TimerEvent: {}
+[0.300250] (-) TimerEvent: {}
+[0.400519] (-) TimerEvent: {}
+[0.500790] (-) TimerEvent: {}
+[0.601100] (-) TimerEvent: {}
+[0.701442] (-) TimerEvent: {}
+[0.801724] (-) TimerEvent: {}
+[0.902091] (-) TimerEvent: {}
+[1.002397] (-) TimerEvent: {}
+[1.102678] (-) TimerEvent: {}
+[1.202963] (-) TimerEvent: {}
+[1.303235] (-) TimerEvent: {}
+[1.403526] (-) TimerEvent: {}
+[1.503846] (-) TimerEvent: {}
+[1.604181] (-) TimerEvent: {}
+[1.704703] (-) TimerEvent: {}
+[1.804984] (-) TimerEvent: {}
+[1.905240] (-) TimerEvent: {}
+[2.005465] (-) TimerEvent: {}
+[2.105719] (-) TimerEvent: {}
+[2.205973] (-) TimerEvent: {}
+[2.213643] (environment_detection) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[2.213860] (environment_detection) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[2.213934] (environment_detection) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/memory:64\x1b[m\x1b[K,\n'}
+[2.214000] (environment_detection) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[2.214065] (environment_detection) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ender/Desktop/dev_ws/src/environment_detection/include/agv_node.hpp:3\x1b[m\x1b[K,\n'}
+[2.214126] (environment_detection) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ender/Desktop/dev_ws/src/environment_detection/include/main.hpp:3\x1b[m\x1b[K,\n'}
+[2.214187] (environment_detection) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:1\x1b[m\x1b[K:\n'}
+[2.214359] (environment_detection) StderrLine: {'line': b'/usr/include/c++/11/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = AgvNode; _Args = {}; _Tp = AgvNode]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.214424] (environment_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = AgvNode; _Args = {}; _Tp = AgvNode; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<AgvNode>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.214489] (environment_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = AgvNode; _Alloc = std::allocator<AgvNode>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.214560] (environment_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = AgvNode; _Alloc = std::allocator<AgvNode>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.214624] (environment_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<AgvNode>; _Args = {}; _Tp = AgvNode; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.214685] (environment_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<AgvNode>; _Args = {}; _Tp = AgvNode]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.214757] (environment_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = AgvNode; _Alloc = std::allocator<AgvNode>; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.214825] (environment_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = AgvNode; _Args = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.214898] (environment_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:7:42:\x1b[m\x1b[K   required from here\n'}
+[2.214964] (environment_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcall of overloaded \xe2\x80\x98\x1b[01m\x1b[KAgvNode()\x1b[m\x1b[K\xe2\x80\x99 is ambiguous\n'}
+[2.215030] (environment_detection) StderrLine: {'line': b'  162 |        { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[2.215095] (environment_detection) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.215156] (environment_detection) StderrLine: {'line': b'\n'}
+[2.215217] (environment_detection) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ender/Desktop/dev_ws/src/environment_detection/include/main.hpp:3\x1b[m\x1b[K,\n'}
+[2.215285] (environment_detection) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:1\x1b[m\x1b[K:\n'}
+[2.215373] (environment_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ender/Desktop/dev_ws/src/environment_detection/include/agv_node.hpp:17:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KAgvNode::AgvNode(bool)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.215442] (environment_detection) StderrLine: {'line': b'   17 |     \x1b[01;36m\x1b[KAgvNode\x1b[m\x1b[K(bool subs_activate = false);\n'}
+[2.215508] (environment_detection) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.215573] (environment_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ender/Desktop/dev_ws/src/environment_detection/include/agv_node.hpp:16:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KAgvNode::AgvNode()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.215648] (environment_detection) StderrLine: {'line': b'   16 |     \x1b[01;36m\x1b[KAgvNode\x1b[m\x1b[K();\n'}
+[2.215704] (environment_detection) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.306106] (-) TimerEvent: {}
+[2.406349] (-) TimerEvent: {}
+[2.506628] (-) TimerEvent: {}
+[2.508202] (environment_detection) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/environment_detection_node.dir/build.make:76: CMakeFiles/environment_detection_node.dir/src/main.cpp.o] Error 1\n'}
+[2.508359] (environment_detection) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[2.606784] (-) TimerEvent: {}
+[2.707078] (-) TimerEvent: {}
+[2.807344] (-) TimerEvent: {}
+[2.907609] (-) TimerEvent: {}
+[3.007887] (-) TimerEvent: {}
+[3.108186] (-) TimerEvent: {}
+[3.208457] (-) TimerEvent: {}
+[3.308719] (-) TimerEvent: {}
+[3.408970] (-) TimerEvent: {}
+[3.509261] (-) TimerEvent: {}
+[3.609516] (-) TimerEvent: {}
+[3.709784] (-) TimerEvent: {}
+[3.810087] (-) TimerEvent: {}
+[3.910441] (-) TimerEvent: {}
+[4.010683] (-) TimerEvent: {}
+[4.110960] (-) TimerEvent: {}
+[4.211206] (-) TimerEvent: {}
+[4.311599] (-) TimerEvent: {}
+[4.411839] (-) TimerEvent: {}
+[4.512177] (-) TimerEvent: {}
+[4.612454] (-) TimerEvent: {}
+[4.712703] (-) TimerEvent: {}
+[4.812971] (-) TimerEvent: {}
+[4.913229] (-) TimerEvent: {}
+[5.013451] (-) TimerEvent: {}
+[5.113671] (-) TimerEvent: {}
+[5.213884] (-) TimerEvent: {}
+[5.314195] (-) TimerEvent: {}
+[5.414462] (-) TimerEvent: {}
+[5.514695] (-) TimerEvent: {}
+[5.615026] (-) TimerEvent: {}
+[5.715263] (-) TimerEvent: {}
+[5.815483] (-) TimerEvent: {}
+[5.915724] (-) TimerEvent: {}
+[6.015971] (-) TimerEvent: {}
+[6.116289] (-) TimerEvent: {}
+[6.216558] (-) TimerEvent: {}
+[6.316782] (-) TimerEvent: {}
+[6.380178] (environment_detection) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/environment_detection_node.dir/all] Error 2\n'}
+[6.380322] (environment_detection) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.381770] (environment_detection) CommandEnded: {'returncode': 2}
+[6.404600] (environment_detection) JobEnded: {'identifier': 'environment_detection', 'rc': 2}
+[6.414994] (-) EventReactorShutdown: {}

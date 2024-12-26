@@ -1,0 +1,22 @@
+[0.413s] Invoking command in '/home/ender/Desktop/dev_ws/build/nav_controller': PYTHONPATH=/home/ender/Desktop/dev_ws/build/nav_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ender/Desktop/dev_ws/install/nav_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ender/Desktop/dev_ws/build/nav_controller/build --no-deps symlink_data --force
+[0.569s] running develop
+[0.569s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.569s]   warnings.warn(
+[0.662s] running egg_info
+[0.662s] writing nav_controller.egg-info/PKG-INFO
+[0.662s] writing dependency_links to nav_controller.egg-info/dependency_links.txt
+[0.662s] writing entry points to nav_controller.egg-info/entry_points.txt
+[0.662s] writing requirements to nav_controller.egg-info/requires.txt
+[0.662s] writing top-level names to nav_controller.egg-info/top_level.txt
+[0.663s] reading manifest file 'nav_controller.egg-info/SOURCES.txt'
+[0.664s] writing manifest file 'nav_controller.egg-info/SOURCES.txt'
+[0.665s] running build_ext
+[0.665s] Creating /home/ender/Desktop/dev_ws/install/nav_controller/lib/python3.10/site-packages/nav-controller.egg-link (link to .)
+[0.665s] Installing control script to /home/ender/Desktop/dev_ws/install/nav_controller/lib/nav_controller
+[0.665s] Installing display_map script to /home/ender/Desktop/dev_ws/install/nav_controller/lib/nav_controller
+[0.665s] 
+[0.665s] Installed /home/ender/Desktop/dev_ws/build/nav_controller
+[0.665s] running symlink_data
+[0.666s] symbolically linking /home/ender/Desktop/dev_ws/build/nav_controller/resource/nav_controller -> /home/ender/Desktop/dev_ws/install/nav_controller/share/ament_index/resource_index/packages
+[0.666s] symbolically linking /home/ender/Desktop/dev_ws/build/nav_controller/package.xml -> /home/ender/Desktop/dev_ws/install/nav_controller/share/nav_controller
+[0.685s] Invoked command in '/home/ender/Desktop/dev_ws/build/nav_controller' returned '0': PYTHONPATH=/home/ender/Desktop/dev_ws/build/nav_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ender/Desktop/dev_ws/install/nav_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/ender/Desktop/dev_ws/build/nav_controller/build --no-deps symlink_data --force

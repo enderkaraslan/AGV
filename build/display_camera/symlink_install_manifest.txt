@@ -1,0 +1,16 @@
+/home/ender/Desktop/dev_ws/install/display_camera/lib/display_camera/display_camera_node
+/home/ender/Desktop/dev_ws/install/display_camera/share/ament_index/resource_index/package_run_dependencies/display_camera
+/home/ender/Desktop/dev_ws/install/display_camera/share/ament_index/resource_index/parent_prefix_path/display_camera
+/home/ender/Desktop/dev_ws/install/display_camera/share/display_camera/environment/ament_prefix_path.sh
+/home/ender/Desktop/dev_ws/install/display_camera/share/display_camera/environment/ament_prefix_path.dsv
+/home/ender/Desktop/dev_ws/install/display_camera/share/display_camera/environment/path.sh
+/home/ender/Desktop/dev_ws/install/display_camera/share/display_camera/environment/path.dsv
+/home/ender/Desktop/dev_ws/install/display_camera/share/display_camera/local_setup.bash
+/home/ender/Desktop/dev_ws/install/display_camera/share/display_camera/local_setup.sh
+/home/ender/Desktop/dev_ws/install/display_camera/share/display_camera/local_setup.zsh
+/home/ender/Desktop/dev_ws/install/display_camera/share/display_camera/local_setup.dsv
+/home/ender/Desktop/dev_ws/install/display_camera/share/display_camera/package.dsv
+/home/ender/Desktop/dev_ws/install/display_camera/share/ament_index/resource_index/packages/display_camera
+/home/ender/Desktop/dev_ws/install/display_camera/share/display_camera/cmake/display_cameraConfig.cmake
+/home/ender/Desktop/dev_ws/install/display_camera/share/display_camera/cmake/display_cameraConfig-version.cmake
+/home/ender/Desktop/dev_ws/install/display_camera/share/display_camera/package.xml

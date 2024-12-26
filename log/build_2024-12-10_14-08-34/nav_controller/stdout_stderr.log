@@ -1,0 +1,18 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing nav_controller.egg-info/PKG-INFO
+writing dependency_links to nav_controller.egg-info/dependency_links.txt
+writing entry points to nav_controller.egg-info/entry_points.txt
+writing requirements to nav_controller.egg-info/requires.txt
+writing top-level names to nav_controller.egg-info/top_level.txt
+reading manifest file 'nav_controller.egg-info/SOURCES.txt'
+writing manifest file 'nav_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ender/Desktop/dev_ws/install/nav_controller/lib/python3.10/site-packages/nav-controller.egg-link (link to .)
+Installing control script to /home/ender/Desktop/dev_ws/install/nav_controller/lib/nav_controller
+Installing display_map script to /home/ender/Desktop/dev_ws/install/nav_controller/lib/nav_controller
+
+Installed /home/ender/Desktop/dev_ws/build/nav_controller
+running symlink_data

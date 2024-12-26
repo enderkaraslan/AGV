@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/opt/ros/humble/include/**",
+                "/usr/include/**",
+                "${workspaceFolder}/src/environment_detection/include",
+                "/opt/ros/humble/include/rclcpp",
+                "/opt/ros/humble/include/sensor_msgs",
+                "/opt/ros/humble/include/std_msgs",
+                "/opt/ros/humble/include/rcl",
+                "${workspaceFolder}/src/display_camera/include"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}

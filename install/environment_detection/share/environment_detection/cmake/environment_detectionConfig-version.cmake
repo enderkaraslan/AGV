@@ -1,0 +1,1 @@
+/home/ender/Desktop/dev_ws/build/environment_detection/ament_cmake_core/environment_detectionConfig-version.cmake

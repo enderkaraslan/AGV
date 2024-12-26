@@ -1,0 +1,10 @@
+/home/ender/Desktop/dev_ws/build/display_camera/CMakeFiles/uninstall.dir
+/home/ender/Desktop/dev_ws/build/display_camera/CMakeFiles/display_camera_uninstall.dir
+/home/ender/Desktop/dev_ws/build/display_camera/CMakeFiles/display_camera_node.dir
+/home/ender/Desktop/dev_ws/build/display_camera/CMakeFiles/test.dir
+/home/ender/Desktop/dev_ws/build/display_camera/CMakeFiles/edit_cache.dir
+/home/ender/Desktop/dev_ws/build/display_camera/CMakeFiles/rebuild_cache.dir
+/home/ender/Desktop/dev_ws/build/display_camera/CMakeFiles/list_install_components.dir
+/home/ender/Desktop/dev_ws/build/display_camera/CMakeFiles/install.dir
+/home/ender/Desktop/dev_ws/build/display_camera/CMakeFiles/install/local.dir
+/home/ender/Desktop/dev_ws/build/display_camera/CMakeFiles/install/strip.dir

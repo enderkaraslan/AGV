@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target environment_detection_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/environment_detection_node.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable environment_detection_node[0m
+[100%] Built target environment_detection_node
+-- Install configuration: ""
+-- Installing: /home/ender/Desktop/dev_ws/install/environment_detection/lib/environment_detection/environment_detection_node
+-- Set runtime path of "/home/ender/Desktop/dev_ws/install/environment_detection/lib/environment_detection/environment_detection_node" to ""
+-- Up-to-date: /home/ender/Desktop/dev_ws/install/environment_detection/share/ament_index/resource_index/package_run_dependencies/environment_detection
+-- Up-to-date: /home/ender/Desktop/dev_ws/install/environment_detection/share/ament_index/resource_index/parent_prefix_path/environment_detection
+-- Up-to-date: /home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/environment/path.sh
+-- Up-to-date: /home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/environment/path.dsv
+-- Up-to-date: /home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/local_setup.bash
+-- Up-to-date: /home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/local_setup.sh
+-- Up-to-date: /home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/local_setup.zsh
+-- Up-to-date: /home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/local_setup.dsv
+-- Installing: /home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/package.dsv
+-- Up-to-date: /home/ender/Desktop/dev_ws/install/environment_detection/share/ament_index/resource_index/packages/environment_detection
+-- Up-to-date: /home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/cmake/environment_detectionConfig.cmake
+-- Up-to-date: /home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/cmake/environment_detectionConfig-version.cmake
+-- Up-to-date: /home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/package.xml

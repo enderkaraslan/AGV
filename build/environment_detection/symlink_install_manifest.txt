@@ -1,0 +1,16 @@
+/home/ender/Desktop/dev_ws/install/environment_detection/lib/environment_detection/environment_detection_node
+/home/ender/Desktop/dev_ws/install/environment_detection/share/ament_index/resource_index/package_run_dependencies/environment_detection
+/home/ender/Desktop/dev_ws/install/environment_detection/share/ament_index/resource_index/parent_prefix_path/environment_detection
+/home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/environment/ament_prefix_path.sh
+/home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/environment/ament_prefix_path.dsv
+/home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/environment/path.sh
+/home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/environment/path.dsv
+/home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/local_setup.bash
+/home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/local_setup.sh
+/home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/local_setup.zsh
+/home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/local_setup.dsv
+/home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/package.dsv
+/home/ender/Desktop/dev_ws/install/environment_detection/share/ament_index/resource_index/packages/environment_detection
+/home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/cmake/environment_detectionConfig.cmake
+/home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/cmake/environment_detectionConfig-version.cmake
+/home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/package.xml

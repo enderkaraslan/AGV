@@ -1,0 +1,26 @@
+[0.008s] Invoking command in '/home/ender/Desktop/dev_ws/build/display_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ender/Desktop/dev_ws/build/display_camera -- -j16 -l16
+[0.053s] [ 33%] [32mBuilding CXX object CMakeFiles/display_camera_node.dir/src/main.cpp.o[0m
+[0.053s] [ 66%] [32mBuilding CXX object CMakeFiles/display_camera_node.dir/src/display_cam.cpp.o[0m
+[4.657s] [100%] [32m[1mLinking CXX executable display_camera_node[0m
+[5.059s] [100%] Built target display_camera_node
+[5.068s] Invoked command in '/home/ender/Desktop/dev_ws/build/display_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ender/Desktop/dev_ws/build/display_camera -- -j16 -l16
+[5.088s] Invoking command in '/home/ender/Desktop/dev_ws/build/display_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ender/Desktop/dev_ws/build/display_camera
+[5.093s] -- Install configuration: ""
+[5.094s] -- Execute custom install script
+[5.094s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/display_camera/lib/display_camera/display_camera_node
+[5.094s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/display_camera/share/ament_index/resource_index/package_run_dependencies/display_camera
+[5.094s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/display_camera/share/ament_index/resource_index/parent_prefix_path/display_camera
+[5.094s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/display_camera/share/display_camera/environment/ament_prefix_path.sh
+[5.094s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/display_camera/share/display_camera/environment/ament_prefix_path.dsv
+[5.094s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/display_camera/share/display_camera/environment/path.sh
+[5.094s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/display_camera/share/display_camera/environment/path.dsv
+[5.094s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/display_camera/share/display_camera/local_setup.bash
+[5.094s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/display_camera/share/display_camera/local_setup.sh
+[5.094s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/display_camera/share/display_camera/local_setup.zsh
+[5.094s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/display_camera/share/display_camera/local_setup.dsv
+[5.094s] -- Symlinking: /home/ender/Desktop/dev_ws/install/display_camera/share/display_camera/package.dsv
+[5.099s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/display_camera/share/ament_index/resource_index/packages/display_camera
+[5.099s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/display_camera/share/display_camera/cmake/display_cameraConfig.cmake
+[5.099s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/display_camera/share/display_camera/cmake/display_cameraConfig-version.cmake
+[5.099s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/display_camera/share/display_camera/package.xml
+[5.101s] Invoked command in '/home/ender/Desktop/dev_ws/build/display_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ender/Desktop/dev_ws/build/display_camera

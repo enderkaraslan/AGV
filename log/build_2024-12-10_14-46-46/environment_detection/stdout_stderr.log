@@ -1,0 +1,9 @@
+[31mCMake Error at CMakeLists.txt:7 (include):
+  include could not find requested file:
+
+    /tools/cmake/project.cmake
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/ender/Desktop/dev_ws/build/environment_detection/CMakeFiles/CMakeOutput.log".
+gmake: *** [Makefile:267: cmake_check_build_system] Error 1

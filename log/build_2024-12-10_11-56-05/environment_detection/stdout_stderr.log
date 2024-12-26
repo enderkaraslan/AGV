@@ -1,0 +1,72 @@
+[35m[1mConsolidate compiler generated dependencies of target environment_detection_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/environment_detection_node.dir/src/main.cpp.o[0m
+[01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:54:30:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_msgs[m[K’ does not name a type
+   54 | dom_callback(const [01;31m[Knav_msgs[m[K::msg::Odometry::SharedPtr msg)
+      |                    [01;31m[K^~~~~~~~[m[K
+
+[01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:54:43:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+   54 | const nav_msgs::msg[01;31m[K::[m[KOdometry::SharedPtr msg)
+      |                    [01;31m[K^~[m[K
+
+[01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:54:43:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+   54 | const nav_msgs::msg[01;31m[K:[m[K[32m[K:[m[KOdometry::SharedPtr msg)
+      |                    [01;31m[K^[m[K[32m[K~[m[K
+      |                    [32m[K)[m[K
+[01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:54:40:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   54 | ck(const nav_msgs::[01;31m[Kmsg[m[K::Odometry::SharedPtr msg)
+      |                    [01;31m[K^~~[m[K
+      |                       [32m[K;[m[K
+[01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:54:45:[m[K [01;31m[Kerror: [m[K‘[01m[KOdometry[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+   54 | nst nav_msgs::msg::[01;31m[KOdometry[m[K::SharedPtr msg)
+      |                    [01;31m[K^~~~~~~~[m[K
+
+[01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:59:26:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_msgs[m[K’ was not declared in this scope
+   59 | lcpp::Subscription<[01;31m[Knav_msgs[m[K::msg::Odometry>::SharedPtr subscription_;
+      |                    [01;31m[K^~~~~~~~[m[K
+
+[01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:59:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   59 | msgs::msg::Odometry[01;31m[K>[m[K::SharedPtr subscription_;
+      |                    [01;31m[K^[m[K
+
+[01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:59:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:59:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:59:49:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:59:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   59 | s::msg::Odometry>::[01;31m[KSharedPtr[m[K subscription_;
+      |                    [01;31m[K^~~~~~~~~[m[K
+      |                             [32m[K;[m[K
+[01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:59:62:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   59 | ometry>::SharedPtr [01;31m[Ksubscription_[m[K;
+      |                    [01;31m[K^~~~~~~~~~~~~[m[K
+      |                    [32m[Krmw_subscription_t[m[K
+[01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:[m[K In constructor ‘[01m[KOdometry_subscriber::Odometry_subscriber()[m[K’:
+[01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:45:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   45 |         [01;31m[Ksubscription_[m[K= this->create_subscription<nav_msgs::msg::Odometry>(
+      |         [01;31m[K^~~~~~~~~~~~~[m[K
+      |         [32m[Krmw_subscription_t[m[K
+[01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:45:50:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_msgs[m[K’ was not declared in this scope
+   45 | reate_subscription<[01;31m[Knav_msgs[m[K::msg::Odometry>(
+      |                    [01;31m[K^~~~~~~~[m[K
+
+[01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:45:30:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   45 | bscription_= this->[01;31m[Kcreate_subscription<nav_msgs::msg::Odometry>[m[K(
+      |                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:48:50:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_msgs[m[K’ does not name a type
+   48 |       [this](const [01;31m[Knav_msgs[m[K::msg::Odometry::SharedPtr msg)
+      |                    [01;31m[K^~~~~~~~[m[K
+
+[01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:[m[K In lambda function:
+[01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:51:39:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K;[m[K’ token
+   51 |                            })[01;31m[K;[m[K
+      |                              [01;31m[K^[m[K
+
+[01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:[m[K In constructor ‘[01m[KOdometry_subscriber::Odometry_subscriber()[m[K’:
+[01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:51:39:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:45:74:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   45 | tion<nav_msgs::msg::Odometry>[01;36m[K([m[K
+      |                              [01;36m[K^[m[K
+
+gmake[2]: *** [CMakeFiles/environment_detection_node.dir/build.make:76: CMakeFiles/environment_detection_node.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/environment_detection_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
