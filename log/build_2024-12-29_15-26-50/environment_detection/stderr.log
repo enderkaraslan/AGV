@@ -1,0 +1,16 @@
+[01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:[m[K In member function ‘[01m[Kvoid AgvNode::process_images()[m[K’:
+[01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:148:49:[m[K [01;31m[Kerror: [m[K‘[01m[KtopLeft[m[K’ was not declared in this scope
+  148 |             std::cout << "Sol Üst (x, y): (" << [01;31m[KtopLeft[m[K.x << ", " << topLeft.y << ")" << std::endl;
+      |                                                 [01;31m[K^~~~~~~[m[K
+[01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:149:49:[m[K [01;31m[Kerror: [m[K‘[01m[KtopRight[m[K’ was not declared in this scope
+  149 |             std::cout << "Sağ Üst (x, y): (" << [01;31m[KtopRight[m[K.x << ", " << topRight.y << ")" << std::endl;
+      |                                                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:150:49:[m[K [01;31m[Kerror: [m[K‘[01m[KbottomLeft[m[K’ was not declared in this scope
+  150 |             std::cout << "Sol Alt (x, y): (" << [01;31m[KbottomLeft[m[K.x << ", " << bottomLeft.y << ")" << std::endl;
+      |                                                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:151:49:[m[K [01;31m[Kerror: [m[K‘[01m[KbottomRight[m[K’ was not declared in this scope
+  151 |             std::cout << "Sağ Alt (x, y): (" << [01;31m[KbottomRight[m[K.x << ", " << bottomRight.y << ")" << std::endl;
+      |                                                 [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/environment_detection_node.dir/build.make:76: CMakeFiles/environment_detection_node.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/environment_detection_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

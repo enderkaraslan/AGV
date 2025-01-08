@@ -1,0 +1,8 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/environment_detection_node.dir/src/main.cpp.o[0m
+[01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:[m[K In member function ‘[01m[Kvoid AgvNode::process_images()[m[K’:
+[01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:162:41:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kcv::Mat[m[K’ and ‘[01m[Kint[m[K’)
+  162 |             std::cout << threshold_image[01;31m[K[[m[Kcontour_center_x][contour_center_y] << "\n";
+      |                                         [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/environment_detection_node.dir/build.make:76: CMakeFiles/environment_detection_node.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/environment_detection_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

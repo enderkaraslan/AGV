@@ -1,0 +1,7 @@
+[01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:[m[K In member function ‘[01m[Kvoid AgvNode::process_images()[m[K’:
+[01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:161:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage[m[K’ was not declared in this scope
+  161 |             part1 = [01;31m[Kimage[m[K(cv::Range(0, 89), cv::Range::all()); //cv::Range::all() bütün kolonları al demek
+      |                     [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/environment_detection_node.dir/build.make:76: CMakeFiles/environment_detection_node.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/environment_detection_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,23 @@
+[0.148s] Invoking command in '/home/ender/Desktop/dev_ws/build/environment_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ender/Desktop/dev_ws/install/control:/opt/ros/humble /usr/bin/cmake --build /home/ender/Desktop/dev_ws/build/environment_detection -- -j16 -l16
+[0.193s] [100%] Built target environment_detection_node
+[0.203s] Invoked command in '/home/ender/Desktop/dev_ws/build/environment_detection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ender/Desktop/dev_ws/install/control:/opt/ros/humble /usr/bin/cmake --build /home/ender/Desktop/dev_ws/build/environment_detection -- -j16 -l16
+[0.224s] Invoking command in '/home/ender/Desktop/dev_ws/build/environment_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ender/Desktop/dev_ws/install/control:/opt/ros/humble /usr/bin/cmake --install /home/ender/Desktop/dev_ws/build/environment_detection
+[0.228s] -- Install configuration: ""
+[0.229s] -- Execute custom install script
+[0.229s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/environment_detection/lib/environment_detection/environment_detection_node
+[0.229s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/environment_detection/share/ament_index/resource_index/package_run_dependencies/environment_detection
+[0.229s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/environment_detection/share/ament_index/resource_index/parent_prefix_path/environment_detection
+[0.229s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/environment/ament_prefix_path.sh
+[0.229s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/environment/ament_prefix_path.dsv
+[0.229s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/environment/path.sh
+[0.229s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/environment/path.dsv
+[0.230s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/local_setup.bash
+[0.230s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/local_setup.sh
+[0.230s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/local_setup.zsh
+[0.230s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/local_setup.dsv
+[0.230s] -- Symlinking: /home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/package.dsv
+[0.237s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/environment_detection/share/ament_index/resource_index/packages/environment_detection
+[0.237s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/cmake/environment_detectionConfig.cmake
+[0.237s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/cmake/environment_detectionConfig-version.cmake
+[0.237s] -- Up-to-date symlink: /home/ender/Desktop/dev_ws/install/environment_detection/share/environment_detection/package.xml
+[0.239s] Invoked command in '/home/ender/Desktop/dev_ws/build/environment_detection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ender/Desktop/dev_ws/install/control:/opt/ros/humble /usr/bin/cmake --install /home/ender/Desktop/dev_ws/build/environment_detection

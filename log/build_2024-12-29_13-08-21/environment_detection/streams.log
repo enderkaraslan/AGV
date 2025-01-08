@@ -1,0 +1,292 @@
+[0.148s] Invoking command in '/home/ender/Desktop/dev_ws/build/environment_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ender/Desktop/dev_ws/install/control:/opt/ros/humble /usr/bin/cmake --build /home/ender/Desktop/dev_ws/build/environment_detection -- -j16 -l16
+[0.164s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.259s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.266s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.284s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.286s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.289s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.294s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.301s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.320s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.321s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.384s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.411s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.427s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.440s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.481s] -- Configuring done
+[0.488s] -- Generating done
+[0.489s] -- Build files have been written to: /home/ender/Desktop/dev_ws/build/environment_detection
+[0.506s] [35m[1mConsolidate compiler generated dependencies of target environment_detection_node[0m
+[0.520s] [ 50%] [32mBuilding CXX object CMakeFiles/environment_detection_node.dir/src/main.cpp.o[0m
+[2.123s] [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:14:24:[m[K [01;31m[Kerror: [m[Kreference to ‘[01m[KNode[m[K’ is ambiguous
+[2.123s]    14 | class AgvNode : public [01;31m[KNode[m[K {
+[2.123s]       |                        [01;31m[K^~~~[m[K
+[2.123s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.123s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.123s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.123s]                  from [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:1[m[K:
+[2.123s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:77:7:[m[K [01;36m[Knote: [m[Kcandidates are: ‘[01m[Kclass rclcpp::Node[m[K’
+[2.123s]    77 | class [01;36m[KNode[m[K : public std::enable_shared_from_this<Node>
+[2.123s]       |       [01;36m[K^~~~[m[K
+[2.123s] In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:3307[m[K,
+[2.123s]                  from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+[2.123s]                  from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+[2.123s]                  from [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:4[m[K:
+[2.123s] [01m[K/usr/include/opencv4/opencv2/core/utility.hpp:1072:18:[m[K [01;36m[Knote: [m[K                ‘[01m[Ktemplate<class OBJECT> class cv::Node[m[K’
+[2.123s]  1072 | class CV_EXPORTS [01;36m[KNode[m[K
+[2.123s]       |                  [01;36m[K^~~~[m[K
+[2.146s] [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:[m[K In constructor ‘[01m[KAgvNode::AgvNode()[m[K’:
+[2.146s] [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:16:17:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KAgvNode[m[K’ does not have any field named ‘[01m[KNode[m[K’
+[2.146s]    16 |     AgvNode() : [01;31m[KNode[m[K("agv_node"), current_state_(State::IDLE), turn_count_(0) {
+[2.146s]       |                 [01;31m[K^~~~[m[K
+[2.146s] [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:18:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass AgvNode[m[K’ has no member named ‘[01m[Kcreate_subscription[m[K’; did you mean ‘[01m[Kcamera_subscription_[m[K’?
+[2.146s]    18 | scription_ = this->[01;31m[Kcreate_subscription[m[K<sensor_msgs::msg::Image>(
+[2.146s]       |                    [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.146s]       |                    [32m[Kcamera_subscription_[m[K
+[2.146s] [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:18:81:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[2.147s]    18 | tion<sensor_msgs::msg::Image[01;31m[K>[m[K(
+[2.147s]       |                             [01;31m[K^[m[K
+[2.147s] 
+[2.152s] [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:22:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass AgvNode[m[K’ has no member named ‘[01m[Kcreate_publisher[m[K’
+[2.152s]    22 | publisher_ = this->[01;31m[Kcreate_publisher[m[K<geometry_msgs::msg::Twist>("/cmd_vel", 10);
+[2.152s]       |                    [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.152s] 
+[2.152s] [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:22:79:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[2.152s]    22 | ry_msgs::msg::Twist[01;31m[K>[m[K("/cmd_vel", 10);
+[2.152s]       |                    [01;31m[K^[m[K
+[2.152s] 
+[2.152s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.152s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.152s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.152s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.152s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.152s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.152s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.152s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.152s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.152s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.152s]                  from [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:1[m[K:
+[2.152s] [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:24:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass AgvNode[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[2.152s]    24 |  RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "AGV node initialized and listening to camera topic.");
+[2.152s]       |                    [01;31m[K^~~~~~~~~~[m[K
+[2.152s] 
+[2.152s] [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:24:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass AgvNode[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[2.152s] [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:24:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.152s]    24 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "AGV node initialized and listening to camera topic.");
+[2.152s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.152s] [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:24:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.152s]    24 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "AGV node initialized and listening to camera topic.");
+[2.152s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.152s] [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:24:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.152s]    24 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "AGV node initialized and listening to camera topic.");
+[2.152s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.152s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.152s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.152s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.153s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.153s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.153s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.153s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.153s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.153s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.153s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.153s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.153s]                  from [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:1[m[K:
+[2.153s] [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:24:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass AgvNode[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[2.153s]    24 |  RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "AGV node initialized and listening to camera topic.");
+[2.153s]       |                    [01;31m[K^~~~~~~~~~[m[K
+[2.153s] 
+[2.153s] [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:24:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass AgvNode[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[2.153s]    24 |  RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "AGV node initialized and listening to camera topic.");
+[2.153s]       |                    [01;31m[K^~~~~~~~~~[m[K
+[2.153s] 
+[2.156s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.156s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.156s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.156s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.156s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.156s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.156s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.156s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.156s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.157s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.157s]                  from [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:1[m[K:
+[2.157s] [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:[m[K In member function ‘[01m[Kvoid AgvNode::imageCallback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.157s] [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:51:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass AgvNode[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[2.157s]    51 | RCLCPP_ERROR(this->[01;31m[Kget_logger[m[K(), "Could not convert from '%s' to 'bgr8': %s", msg->encoding.c_str(), e.what());
+[2.157s]       |                    [01;31m[K^~~~~~~~~~[m[K
+[2.157s] 
+[2.157s] [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:51:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass AgvNode[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[2.157s] [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:51:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.157s]    51 |             [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Could not convert from '%s' to 'bgr8': %s", msg->encoding.c_str(), e.what());
+[2.157s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[2.157s] [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:51:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.157s]    51 |             [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Could not convert from '%s' to 'bgr8': %s", msg->encoding.c_str(), e.what());
+[2.157s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[2.157s] [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:51:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.157s]    51 |             [01;31m[KRCLCPP_ERROR[m[K(this->get_logger(), "Could not convert from '%s' to 'bgr8': %s", msg->encoding.c_str(), e.what());
+[2.157s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[2.157s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.157s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.157s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.157s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.157s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.157s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.157s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.157s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.157s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.157s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.157s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.157s]                  from [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:1[m[K:
+[2.157s] [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:51:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass AgvNode[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[2.157s]    51 | RCLCPP_ERROR(this->[01;31m[Kget_logger[m[K(), "Could not convert from '%s' to 'bgr8': %s", msg->encoding.c_str(), e.what());
+[2.157s]       |                    [01;31m[K^~~~~~~~~~[m[K
+[2.157s] 
+[2.157s] [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:51:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass AgvNode[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[2.157s]    51 | RCLCPP_ERROR(this->[01;31m[Kget_logger[m[K(), "Could not convert from '%s' to 'bgr8': %s", msg->encoding.c_str(), e.what());
+[2.157s]       |                    [01;31m[K^~~~~~~~~~[m[K
+[2.157s] 
+[2.158s] [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:[m[K In member function ‘[01m[Kvoid AgvNode::processState()[m[K’:
+[2.158s] [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:72:45:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kint[m[K’ to ‘[01m[Kstd::vector<cv::Point_<int> >[m[K’
+[2.158s]    72 | image_to_process, 0, [01;31m[K0[m[K, true);
+[2.158s]       |                      [01;31m[K^[m[K
+[2.158s]       |                      [01;31m[K|[m[K
+[2.158s]       |                      [01;31m[Kint[m[K
+[2.158s] 
+[2.159s] [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:123:71:[m[K [01;36m[Knote: [m[K  initializing argument 3 of ‘[01m[Kvoid AgvNode::showImage(cv::Mat, int, std::vector<cv::Point_<int> >, bool)[m[K’
+[2.159s]   123 | e_x, [01;36m[Kvector<Point> main_contour[m[K, bool stop = false){
+[2.159s]       |      [01;36m[K~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[2.159s] 
+[2.159s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.159s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.159s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.159s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.159s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.159s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.160s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.160s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.160s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.160s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.160s]                  from [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:1[m[K:
+[2.160s] [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:101:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass AgvNode[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[2.160s]   101 |  RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Dönüş Algılandı. Dönüş Sayısı: %d", turn_count_);
+[2.160s]       |                    [01;31m[K^~~~~~~~~~[m[K
+[2.160s] 
+[2.160s] [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:101:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass AgvNode[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[2.160s] [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:101:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.160s]   101 |                    [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Dönüş Algılandı. Dönüş Sayısı: %d", turn_count_);
+[2.160s]       |                    [01;31m[K^~~~~~~~~~~[m[K
+[2.160s] 
+[2.160s] [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:101:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.161s]   101 |                    [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Dönüş Algılandı. Dönüş Sayısı: %d", turn_count_);
+[2.161s]       |                    [01;31m[K^~~~~~~~~~~[m[K
+[2.161s] 
+[2.161s] [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:101:21:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.161s]   101 |                    [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Dönüş Algılandı. Dönüş Sayısı: %d", turn_count_);
+[2.161s]       |                    [01;31m[K^~~~~~~~~~~[m[K
+[2.161s] 
+[2.161s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.161s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.161s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.161s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.161s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.161s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.161s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.161s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.161s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.161s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.162s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.162s]                  from [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:1[m[K:
+[2.162s] [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:101:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass AgvNode[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[2.162s]   101 |  RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Dönüş Algılandı. Dönüş Sayısı: %d", turn_count_);
+[2.162s]       |                    [01;31m[K^~~~~~~~~~[m[K
+[2.162s] 
+[2.162s] [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:101:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass AgvNode[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[2.162s]   101 |  RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Dönüş Algılandı. Dönüş Sayısı: %d", turn_count_);
+[2.162s]       |                    [01;31m[K^~~~~~~~~~[m[K
+[2.162s] 
+[2.162s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.162s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.162s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.162s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.162s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.162s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.162s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.162s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.162s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.162s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.162s]                  from [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:1[m[K:
+[2.163s] [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:[m[K In member function ‘[01m[Kvoid AgvNode::transitionState(const AgvNode::State&)[m[K’:
+[2.163s] [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:135:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass AgvNode[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[2.163s]   135 |  RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Transitioned to state: %s", toString(new_state).c_str());
+[2.163s]       |                    [01;31m[K^~~~~~~~~~[m[K
+[2.163s] 
+[2.163s] [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:135:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass AgvNode[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[2.163s] [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:135:10:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.163s]   135 |          [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Transitioned to state: %s", toString(new_state).c_str());
+[2.163s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[2.163s] [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:135:10:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.163s]   135 |          [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Transitioned to state: %s", toString(new_state).c_str());
+[2.163s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[2.163s] [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:135:10:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.163s]   135 |          [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Transitioned to state: %s", toString(new_state).c_str());
+[2.163s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[2.163s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.163s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.163s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.163s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.163s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.163s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.163s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.163s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.163s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.163s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.163s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.163s]                  from [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:1[m[K:
+[2.163s] [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:135:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass AgvNode[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[2.163s]   135 |  RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Transitioned to state: %s", toString(new_state).c_str());
+[2.163s]       |                    [01;31m[K^~~~~~~~~~[m[K
+[2.163s] 
+[2.163s] [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:135:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass AgvNode[m[K’ has no member named ‘[01m[Kget_logger[m[K’
+[2.163s]   135 |  RCLCPP_INFO(this->[01;31m[Kget_logger[m[K(), "Transitioned to state: %s", toString(new_state).c_str());
+[2.163s]       |                    [01;31m[K^~~~~~~~~~[m[K
+[2.163s] 
+[2.166s] [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.166s] [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:181:17:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin(std::shared_ptr<AgvNode>)[m[K’
+[2.166s]   181 |     [01;31m[Krclcpp::spin(std::make_shared<AgvNode>())[m[K;
+[2.166s]       |     [01;31m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.166s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.166s]                  from [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:1[m[K:
+[2.166s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)[m[K’
+[2.166s]    45 | [01;36m[Kspin[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);
+[2.166s]       | [01;36m[K^~~~[m[K
+[2.166s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:60:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kshared_ptr<[01;32m[KAgvNode[m[K>[m[K’ to ‘[01m[Kshared_ptr<[01;32m[Krclcpp::node_interfaces::NodeBaseInterface[m[K>[m[K’
+[2.166s]    45 | [01;36m[Knterface::SharedPtr node_ptr[m[K);
+[2.166s]       | [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[2.166s] 
+[2.166s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::Node::SharedPtr)[m[K’
+[2.166s]    49 | [01;36m[Kspin[m[K(rclcpp::Node::SharedPtr node_ptr);
+[2.166s]       | [01;36m[K^~~~[m[K
+[2.166s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kshared_ptr<[01;32m[KAgvNode[m[K>[m[K’ to ‘[01m[Kshared_ptr<[01;32m[Krclcpp::Node[m[K>[m[K’
+[2.166s]    49 | [01;36m[Kpp::Node::SharedPtr node_ptr[m[K);
+[2.166s]       | [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[2.166s] 
+[2.831s] In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+[2.832s]                  from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+[2.832s]                  from [01m[K/usr/include/c++/11/memory:64[m[K,
+[2.832s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[2.832s]                  from [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:1[m[K:
+[2.832s] /usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::destroy(_Up*) [with _Up = AgvNode; _Tp = AgvNode][m[K’:
+[2.832s] [01m[K/usr/include/c++/11/bits/alloc_traits.h:535:15:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::destroy(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*) [with _Up = AgvNode; _Tp = AgvNode; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<AgvNode>][m[K’
+[2.832s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:528:35:[m[K   required from ‘[01m[Kvoid std::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_M_dispose() [with _Tp = AgvNode; _Alloc = std::allocator<AgvNode>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[2.832s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:526:7:[m[K   required from here
+[2.832s] [01m[K/usr/include/c++/11/ext/new_allocator.h:168:20:[m[K [01;31m[Kerror: [m[K‘[01m[KAgvNode::~AgvNode()[m[K’ is private within this context
+[2.832s]   168 |         { [01;31m[K__p->~_Up()[m[K; }
+[2.832s]       |           [01;31m[K~~~~~~~~~^~[m[K
+[2.832s] [01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:166:5:[m[K [01;36m[Knote: [m[Kdeclared private here
+[2.832s]   166 |     [01;36m[K~[m[KAgvNode() {
+[2.832s]       |     [01;36m[K^[m[K
+[2.878s] gmake[2]: *** [CMakeFiles/environment_detection_node.dir/build.make:76: CMakeFiles/environment_detection_node.dir/src/main.cpp.o] Error 1
+[2.878s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/environment_detection_node.dir/all] Error 2
+[2.878s] gmake: *** [Makefile:146: all] Error 2
+[2.879s] Invoked command in '/home/ender/Desktop/dev_ws/build/environment_detection' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ender/Desktop/dev_ws/install/control:/opt/ros/humble /usr/bin/cmake --build /home/ender/Desktop/dev_ws/build/environment_detection -- -j16 -l16
