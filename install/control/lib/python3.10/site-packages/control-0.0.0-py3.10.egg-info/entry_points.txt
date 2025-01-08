@@ -1,3 +1,0 @@
-[console_scripts]
-line_follow_node = control.line_follow_node:main
-

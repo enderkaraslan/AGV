@@ -1,5 +1,0 @@
-[0.013s] Invoking command in '/home/ender/Desktop/dev_ws/build/environment_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ender/Desktop/dev_ws/install/nav_controller:/opt/ros/humble /usr/bin/cmake --build /home/ender/Desktop/dev_ws/build/environment_detection -- -j16 -l16
-[0.029s] [0mCMake Error: The source directory "/home/ender/Desktop/dev_ws/src/environment_detection" does not appear to contain CMakeLists.txt.
-[0.030s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.030s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
-[0.159s] Invoked command in '/home/ender/Desktop/dev_ws/build/environment_detection' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ender/Desktop/dev_ws/install/nav_controller:/opt/ros/humble /usr/bin/cmake --build /home/ender/Desktop/dev_ws/build/environment_detection -- -j16 -l16

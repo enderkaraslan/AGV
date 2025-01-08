@@ -1,8 +1,0 @@
-[01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:[m[K In member function ‘[01m[Kvoid AgvNode::process_images()[m[K’:
-[01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:167:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kblack_count2[m[K’ was not declared in this scope; did you mean ‘[01m[Kblack_count_2[m[K’?
-  167 |             if (black_count_1 > [01;31m[Kblack_count2[m[K*50)
-      |                                 [01;31m[K^~~~~~~~~~~~[m[K
-      |                                 [32m[Kblack_count_2[m[K
-gmake[2]: *** [CMakeFiles/environment_detection_node.dir/build.make:76: CMakeFiles/environment_detection_node.dir/src/main.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/environment_detection_node.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

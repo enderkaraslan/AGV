@@ -1,0 +1,2 @@
+bool is_obstacle_detect
+float32 distance

@@ -1,4 +1,0 @@
-[01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:[m[K In member function ‘[01m[Kvoid OdometrySubscriber::odom_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
-[01m[K/home/ender/Desktop/dev_ws/src/environment_detection/src/main.cpp:55:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
-   55 |     void odom_callback([01;35m[Kconst nav_msgs::msg::Odometry::SharedPtr msg[m[K)
-      |                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K

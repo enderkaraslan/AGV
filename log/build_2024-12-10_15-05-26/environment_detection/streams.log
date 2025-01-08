@@ -1,5 +1,0 @@
-[0.011s] Invoking command in '/home/ender/Desktop/dev_ws/build/environment_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ender/Desktop/dev_ws/install/nav_controller:/opt/ros/humble /usr/bin/cmake --build /home/ender/Desktop/dev_ws/build/environment_detection -- -j16 -l16
-[0.027s] -- Configuring done
-[0.027s] -- Generating done
-[0.027s] -- Build files have been written to: /home/ender/Desktop/dev_ws/build/environment_detection
-[0.161s] Invoked command in '/home/ender/Desktop/dev_ws/build/environment_detection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ender/Desktop/dev_ws/install/nav_controller:/opt/ros/humble /usr/bin/cmake --build /home/ender/Desktop/dev_ws/build/environment_detection -- -j16 -l16

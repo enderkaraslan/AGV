@@ -1,17 +1,15 @@
 {
-    "cmake.ignoreCMakeListsMissing": true,
     "python.autoComplete.extraPaths": [
-        "/home/ender/Desktop/dev_ws/install/nav_controller/lib/python3.10/site-packages",
+        "/home/ender/Desktop/dev_ws/install/control/lib/python3.10/site-packages",
         "/opt/ros/humble/lib/python3.10/site-packages",
         "/opt/ros/humble/local/lib/python3.10/dist-packages"
     ],
     "python.analysis.extraPaths": [
-        "/home/ender/Desktop/dev_ws/install/nav_controller/lib/python3.10/site-packages",
+        "/home/ender/Desktop/dev_ws/install/control/lib/python3.10/site-packages",
         "/opt/ros/humble/lib/python3.10/site-packages",
         "/opt/ros/humble/local/lib/python3.10/dist-packages"
     ],
     "files.associations": {
-        "*.ipp": "cpp",
         "cctype": "cpp",
         "clocale": "cpp",
         "cmath": "cpp",
@@ -87,7 +85,6 @@
         "typeindex": "cpp",
         "typeinfo": "cpp",
         "variant": "cpp",
-        "valarray": "cpp"
-    },
-    "idf.flashType": "UART"
+        "*.ipp": "cpp"
+    }
 }

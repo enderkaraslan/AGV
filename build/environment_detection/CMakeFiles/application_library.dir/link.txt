@@ -1,2 +1,0 @@
-/usr/bin/ar qc libapplication_library.a CMakeFiles/application_library.dir/application/src/component.cpp.o
-/usr/bin/ranlib libapplication_library.a

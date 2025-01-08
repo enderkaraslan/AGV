@@ -1,0 +1,12 @@
+# ImageInfo.msg
+bool valid
+geometry_msgs/Point contour_center
+float64 extent
+float64 area
+int64 left_black_pixel_count
+int64 right_black_pixel_count
+int64 mid_pixel
+int64 width
+int64 height
+int64 middle_x
+int64 middle_y

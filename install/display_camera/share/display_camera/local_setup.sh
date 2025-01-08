@@ -1,1 +1,0 @@
-/home/ender/Desktop/dev_ws/build/display_camera/ament_cmake_environment_hooks/local_setup.sh
