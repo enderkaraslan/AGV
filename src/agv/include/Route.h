@@ -19,7 +19,10 @@ public:
     Route()
     {
         addTurn(TurnType::LEFT,3);
-        addTurn(TurnType::RIGHT,1);
+        addTurn(TurnType::LEFT,1);
+        addTurn(TurnType::LEFT,6);
+        addTurn(TurnType::LEFT,1);
+        addTurn(TurnType::LEFT,3);
     }
     ~Route() = default;
 

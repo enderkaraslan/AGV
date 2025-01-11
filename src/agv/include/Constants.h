@@ -4,13 +4,20 @@
 
 namespace Constants {
 
-    // Camera and Command Topics
+    // Topics
     constexpr char CameraTopic[]            = "/camera/image_raw";
     constexpr char TwistTopic[]             = "/cmd_vel";
     constexpr char LidarTopic[]             = "/scan";
     constexpr char OdometryTopic[]          = "/odom";
     constexpr char LidarAlertTopic[]        = "/lidar_alert";
     constexpr char ImageInfoTopic[]         = "/image_info";    
+    constexpr char OccupancyGridTopic[]     = "/map";
+    constexpr char PathTopic[]              = "/plan";      
+
+    // Publisher
+    constexpr char SpeedPublish[]           = "cmd_vel";
+    constexpr char MarkerPublish[]          = "visualization_marker";
+    constexpr char GoalPosePublish[]        = "goal_pose";
 
     // Queue Size for Communication
     constexpr int QueueSize                 = 10;
@@ -56,7 +63,7 @@ namespace Constants {
     constexpr double MinimumArea            = 205000.0;
 
     // Obstacle Detection Parameters
-    constexpr double DetectionDistance      = 1.0;
+    constexpr double DetectionDistance      = 1.3;
     constexpr float MaximumDistance         = std::numeric_limits<float>::max();   
 
 }

@@ -8,6 +8,7 @@ public:
     void start();
     void stop();
     void reset();
+    void restart();
     long long elapsedMilliseconds() const;
     bool isExpired(long long durationMilliseconds) const;
     bool isRunning() const;

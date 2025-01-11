@@ -21,7 +21,11 @@ void Timer::reset() {
     accumulated_time_ = 0;
     is_running_ = false;
 }
+void Timer::restart() {
+    accumulated_time_ = 0;
+    start_time_ = std::chrono::steady_clock::now();
 
+}
 long long Timer::elapsedMilliseconds() const {
     if (is_running_) {
         return accumulated_time_ + std::chrono::duration_cast<std::chrono::milliseconds>(

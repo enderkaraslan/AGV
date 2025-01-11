@@ -14,6 +14,7 @@ find_package(OpenCV REQUIRED)
 find_package(cv_bridge REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(my_robot_interfaces REQUIRED)
+find_package(visualization_msgs REQUIRED)
 
 # Kaynak dosyalarını ve başlık dosyalarını doğru şekilde dahil edin
 include_directories(include)
@@ -38,6 +39,7 @@ ament_target_dependencies(agv_node
   geometry_msgs
   my_robot_interfaces
   geometry_msgs
+  visualization_msgs
 
 )
 
