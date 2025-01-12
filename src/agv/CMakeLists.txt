@@ -40,6 +40,7 @@ ament_target_dependencies(agv_node
   my_robot_interfaces
   geometry_msgs
   visualization_msgs
+  std_msgs
 
 )
 

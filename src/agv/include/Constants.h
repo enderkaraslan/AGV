@@ -12,7 +12,8 @@ namespace Constants {
     constexpr char LidarAlertTopic[]        = "/lidar_alert";
     constexpr char ImageInfoTopic[]         = "/image_info";    
     constexpr char OccupancyGridTopic[]     = "/map";
-    constexpr char PathTopic[]              = "/plan";      
+    constexpr char PathTopic[]              = "/plan";   
+    constexpr char StateTopic[]             = "/state";   
 
     // Publisher
     constexpr char SpeedPublish[]           = "cmd_vel";

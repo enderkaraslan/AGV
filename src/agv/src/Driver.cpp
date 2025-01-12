@@ -231,7 +231,7 @@ void Driver::imageInfoCallback(const my_robot_interfaces::msg::ImageInfo::Shared
             message.header.frame_id = "map";  // Reference frame for the goal
 
             // Calculate the goal position 1 meter ahead of the robot
-            double distance_ahead = 2.0;  // 1 meter
+        double distance_ahead = 2.0;  // 1 meter
             double goal_x = x_ + distance_ahead * std::cos(yaw_z_);
             double goal_y = y_ + distance_ahead * std::sin(yaw_z_);
 
